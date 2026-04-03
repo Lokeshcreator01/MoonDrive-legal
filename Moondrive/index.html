@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MoonDrive - A modern cloud file manager that lets you connect and manage multiple cloud storage services from a single app.">
+    <title>MoonDrive | Cloud File Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="url(#gradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <defs>
+                            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#818cf8" />
+                                <stop offset="100%" stop-color="#c084fc" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </div>
+                <span>MoonDrive</span>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><button class="nav-link active" data-target="home">App Overview</button></li>
+                <li><button class="nav-link" data-target="privacy">Privacy Policy</button></li>
+                <li><button class="nav-link" data-target="terms">Terms of Service</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- APP OVERVIEW SECTION -->
+        <section id="home" class="page-section active fade-in">
+            <header class="page-header">
+                <span class="badge">Cloud File Manager</span>
+                <h1>MoonDrive</h1>
+                <p class="subtitle">Manage all your cloud files in one place.</p>
+            </header>
+
+            <div class="content-card">
+                <p class="lead">MoonDrive is a modern cloud file manager that lets you connect and manage multiple cloud storage services from a single app. With MoonDrive, you can browse files, preview documents, upload content, and download files easily across different cloud platforms.</p>
+                
+                <h2 class="gradient-text">Supported Cloud Storage</h2>
+                <p>MoonDrive allows you to connect and manage files from:</p>
+                <ul class="styled-list">
+                    <li><span class="icon">☁️</span> Google Drive</li>
+                    <li><span class="icon">💠</span> Microsoft OneDrive</li>
+                    <li><span class="icon">📦</span> Dropbox</li>
+                </ul>
+                <p>Switch between accounts quickly and access your files without switching between multiple apps.</p>
+
+                <h2 class="gradient-text">Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">🔗</div>
+                        <h3>Connect Multiple Accounts</h3>
+                        <p>Securely sign in to your supported cloud storage providers and manage them from one place.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">⬆️</div>
+                        <h3>Upload Files</h3>
+                        <p>Upload files directly from your device to your connected cloud storage.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">⬇️</div>
+                        <h3>Download Files</h3>
+                        <p>Download files to your device with real-time progress tracking.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">📁</div>
+                        <h3>Browse & Organize</h3>
+                        <p>Navigate folders easily with grid or list views and organize files using folders.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">👁️</div>
+                        <h3>File Preview</h3>
+                        <p>Preview supported file types directly inside the app without needing external applications.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🔍</div>
+                        <h3>Quick Search</h3>
+                        <p>Find files quickly across your connected cloud accounts.</p>
+                    </div>
+                </div>
+
+                <h2 class="gradient-text">Built for Everyday Use</h2>
+                <p>MoonDrive is designed for students, professionals, and everyday users who need fast and convenient access to their cloud files.</p>
+                <p>Whether you are managing documents, media, or backups, MoonDrive helps you keep everything organized in one place.</p>
+
+                <h2 class="gradient-text">Getting Started</h2>
+                <ol class="styled-steps">
+                    <li><span class="step-num">1</span> Install MoonDrive on your device</li>
+                    <li><span class="step-num">2</span> Add your cloud account</li>
+                    <li><span class="step-num">3</span> Start browsing and managing your files</li>
+                </ol>
+
+                <h2 class="gradient-text">Privacy and Security</h2>
+                <p>MoonDrive uses secure authentication through official provider sign-in systems. Your login credentials are handled directly by the respective cloud providers.</p>
+                <p><strong>MoonDrive does not store or access your passwords.</strong></p>
+                
+                <h2 class="gradient-text">Support</h2>
+                <p>If you have questions, feedback, or need assistance, contact us:</p>
+                <div class="contact-box">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="contact-icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    <a href="mailto:aglokihelpline@gmail.com" class="email-link">aglokihelpline@gmail.com</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRIVACY POLICY SECTION -->
+        <section id="privacy" class="page-section">
+            <header class="page-header">
+                <h1>Privacy Policy</h1>
+                <p class="subtitle">Last updated: March 25, 2026</p>
+            </header>
+
+            <div class="content-card legal-content">
+                <p>MoonDev built the MoonDrive app as a free application. This service is provided by MoonDev at no cost and is intended for use as is.</p>
+                <p>This page informs users about our policies regarding the collection, use, and disclosure of personal information when using our service.</p>
+                <p>If you choose to use our service, you agree to the collection and use of information in relation to this policy. The personal information collected is used for providing and improving the service. We will not use or share your information except as described in this Privacy Policy.</p>
+
+                <h3>Information Collection and Use</h3>
+                <p>For a better experience while using our service, we may require you to provide certain personally identifiable information to enable cloud storage integration.</p>
+
+                <h4>1. Cloud Storage Services</h4>
+                <p>MoonDrive integrates with third-party cloud storage providers to manage your files. We communicate directly with these services using their official APIs. We <strong>do not store your login credentials or passwords</strong>. Authentication is handled securely using <strong>OAuth 2.0</strong>.</p>
+                
+                <div class="provider-box">
+                    <h5>Google Drive</h5>
+                    <p>We use the Google Drive API to: List files, Upload files, Download files, and Delete files.</p>
+                    <p>Google user data is accessed <strong>only when you grant permission</strong> and is transmitted directly between your device and Google's servers. We do not sell or share this data.</p>
+                </div>
+
+                <div class="provider-box">
+                    <h5>Microsoft OneDrive</h5>
+                    <p>We use the Microsoft Graph API to manage your OneDrive files.</p>
+                </div>
+
+                <div class="provider-box">
+                    <h5>Dropbox</h5>
+                    <p>We use the Dropbox API to manage files stored in your Dropbox account.</p>
+                </div>
+
+                <h4>2. File Access (Local & Cloud)</h4>
+                <p>MoonDrive requires permission to access device storage in order to function as a file manager.</p>
+                <p>Permissions may include:</p>
+                <ul>
+                    <li><code>READ_EXTERNAL_STORAGE</code></li>
+                    <li><code>WRITE_EXTERNAL_STORAGE</code></li>
+                    <li><code>MANAGE_EXTERNAL_STORAGE</code></li>
+                </ul>
+                <p>These permissions allow the app to: Display files, Copy or move files, Upload files to cloud storage, Download files from cloud storage, and Delete files when requested. Downloaded files are stored locally on your device.</p>
+
+                <h4>3. Application Data & Log Data</h4>
+                <p>In case of errors, the app may collect diagnostic information such as:</p>
+                <ul>
+                    <li>Device IP address</li>
+                    <li>Device name</li>
+                    <li>Operating system version</li>
+                    <li>App configuration during usage</li>
+                    <li>Date and time of usage</li>
+                    <li>Crash logs and statistics</li>
+                </ul>
+                <p>This information helps improve app stability.</p>
+
+                <h4>Third-Party Services</h4>
+                <p>MoonDrive uses third-party services that may collect information used to identify you.</p>
+                <ul>
+                    <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener">Google Play Services Privacy Policy</a></li>
+                    <li><a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google Drive API Services User Data Policy</a></li>
+                    <li><a href="https://www.dropbox.com/privacy" target="_blank" rel="noopener">Dropbox Privacy Policy</a></li>
+                    <li><a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank" rel="noopener">Microsoft Privacy Statement</a></li>
+                </ul>
+
+                <h4>Security</h4>
+                <p>We value your trust and strive to protect your personal information using commercially acceptable methods.</p>
+                <ul>
+                    <li>OAuth tokens are stored securely on your device.</li>
+                    <li>We do not store or access your account passwords.</li>
+                    <li>Data communication with cloud services occurs via encrypted HTTPS connections.</li>
+                </ul>
+                <p>However, no transmission method over the internet is completely secure.</p>
+
+                <h4>Children's Privacy</h4>
+                <p>This service does not address users under the age of 13. We do not knowingly collect personal information from children under 13. If we discover that a child under 13 has provided personal information, we will delete it immediately.</p>
+
+                <h4>Changes to This Privacy Policy</h4>
+                <p>We may update this Privacy Policy periodically. Any changes will be posted on this page with an updated revision date.</p>
+
+                <h4>Contact Us</h4>
+                <p>If you have questions or suggestions about this Privacy Policy, contact us:</p>
+                <p>Email: <a href="mailto:aglokihelpline@gmail.com" class="text-link">aglokihelpline@gmail.com</a></p>
+            </div>
+        </section>
+
+        <!-- TERMS OF SERVICE SECTION -->
+        <section id="terms" class="page-section">
+            <header class="page-header">
+                <h1>Terms of Service</h1>
+                <p class="subtitle">Last updated: March 25, 2026</p>
+            </header>
+
+            <div class="content-card legal-content">
+                <p>Welcome to MoonDrive. By downloading, installing, or using MoonDrive, you agree to these Terms of Service.</p>
+
+                <h4>1. Acceptance of Terms</h4>
+                <p>By using MoonDrive, you confirm that you have read and agree to these Terms and our Privacy Policy.</p>
+
+                <h4>2. Description of Service</h4>
+                <p>MoonDrive is a cloud file management application that allows users to connect third-party storage providers such as Google Drive, Microsoft OneDrive, and Dropbox.</p>
+                <p>The app enables users to browse, upload, download, preview, and manage their cloud files from a single interface.</p>
+
+                <h4>3. Third-Party Services</h4>
+                <p>MoonDrive integrates with third-party services using secure OAuth authentication.</p>
+                <p>Your use of Google Drive, OneDrive, Dropbox, or any other connected service is subject to the terms and policies of those providers.</p>
+                <p>MoonDrive is not affiliated with or endorsed by these services.</p>
+
+                <h4>4. User Responsibilities</h4>
+                <p>You are responsible for:</p>
+                <ul>
+                    <li>Maintaining the security of your accounts</li>
+                    <li>Ensuring that your content complies with applicable laws</li>
+                    <li>Managing your cloud storage accounts appropriately</li>
+                </ul>
+                <p>You agree not to misuse the app or attempt to access systems or accounts without authorization.</p>
+
+                <h4>5. User Content</h4>
+                <p>You retain ownership of the files stored in your cloud accounts.</p>
+                <p>MoonDrive does not claim ownership of any files you upload, download, or access through the app.</p>
+
+                <h4>6. Permissions</h4>
+                <p>MoonDrive may request device permissions such as storage access to allow file uploads, downloads, and previews.</p>
+                <p>Some features may not work properly if these permissions are denied.</p>
+
+                <h4>7. Intellectual Property</h4>
+                <p>The MoonDrive application, branding, logos, and software are owned by MoonDev and are protected by applicable intellectual property laws.</p>
+
+                <h4>8. Service Availability</h4>
+                <p>MoonDrive may update, modify, or discontinue certain features at any time.</p>
+                <p>We do not guarantee uninterrupted or error-free operation.</p>
+
+                <h4>9. Disclaimer</h4>
+                <p>MoonDrive is provided "as is" without warranties of any kind.</p>
+                <p>We are not responsible for any loss of data or issues caused by third-party services.</p>
+
+                <h4>10. Limitation of Liability</h4>
+                <p>To the maximum extent permitted by law, MoonDev shall not be liable for indirect or consequential damages resulting from the use of MoonDrive.</p>
+
+                <h4>11. Changes to Terms</h4>
+                <p>We may update these Terms from time to time. Updates will be posted with a revised "Last updated" date.</p>
+                <p>Continued use of the app means you accept the updated terms.</p>
+
+                <h4>12. Contact</h4>
+                <p>If you have any questions about these Terms:</p>
+                <p>Email: <a href="mailto:aglokihelpline@gmail.com" class="text-link">aglokihelpline@gmail.com</a></p>
+                <p>MoonDev built the MoonDrive app as a free application. This service is provided by MoonDev at no cost and is intended for use as is.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">🌙 MoonDrive</div>
+            <p>&copy; 2026 MoonDev. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
